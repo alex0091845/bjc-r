@@ -15,16 +15,16 @@ learning-goal: Practice implementing algorithms that were discussed verbally.
 learning-goal: Memoization is a technique that can be used for improving the performance of algorithms with repeated calculations at the expense of a higher memory requirement.
 learning-goal: Hiding algorithmic details behind a layer of abstraction makes it easier to upgrade or adjust your implementation in the future.
 
-  resource: Everyone's Got Algorithms [/bjc-r/cur/programming/algorithms/everyones-got-algorithms.html]
+  resource: Everyone's Got Algorithms [https://cs10.org/bjc-r/cur/programming/algorithms/everyones-got-algorithms.html]
 
-  forum: Trash or Treasure? [/bjc-r/cur/programming/algorithms/trash-or-treasure.html]
+  forum: Trash or Treasure? [https://cs10.org/bjc-r/cur/programming/algorithms/trash-or-treasure.html]
   // forum: Trash or Treasure? [http://veritas.eecs.berkeley.edu/courses/mod/forum/view.php?id=1773]
-  resource: (group work) Experiencing Algorithms [/bjc-r/cur/programming/python/algorithms/experiencing-algorithms.html]
-  // resource: (group work) Searching [/bjc-r/cur/programming/python/algorithms/group-work-searching.html]
-  // resource: (group work) The Need for Speed [/bjc-r/cur/programming/python/algorithms/group-work-the-need-for-speed.html]
-  resource: Algorithms in Snap<em>!</em> [/bjc-r/cur/programming/python/algorithms/algorithms-in-python.html]
-  resource: Improving Our Number Finder [/bjc-r/cur/programming/python/algorithms/improving-our-number-finder.html]
-  resource: Too Many Blocks! [/bjc-r/cur/programming/python/algorithms/too-many-functions.html]
+  resource: (group work) Experiencing Algorithms [https://cs10.org/bjc-r/cur/programming/python/algorithms/experiencing-algorithms.html]
+  // resource: (group work) Searching [https://cs10.org/bjc-r/cur/programming/python/algorithms/group-work-searching.html]
+  // resource: (group work) The Need for Speed [https://cs10.org/bjc-r/cur/programming/python/algorithms/group-work-the-need-for-speed.html]
+  resource: Algorithms in Snap<em>!</em> [https://cs10.org/bjc-r/cur/programming/python/algorithms/algorithms-in-python.html]
+  resource: Improving Our Number Finder [https://cs10.org/bjc-r/cur/programming/python/algorithms/improving-our-number-finder.html]
+  resource: Too Many Blocks! [https://cs10.org/bjc-r/cur/programming/python/algorithms/too-many-functions.html]
 
 
 }

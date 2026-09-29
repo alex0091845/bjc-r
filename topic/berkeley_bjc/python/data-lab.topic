@@ -13,6 +13,6 @@ learning-goal: Get a tiny taste of what C8 is like.
 
 
 heading: Introduction to Data Science
-	resource: Set-up Instructions [/bjc-r/cur/programming/python/data-science/data_introduction.html]
+	resource: Set-up Instructions [https://cs10.org/bjc-r/cur/programming/python/data-science/data_introduction.html]
 
 }

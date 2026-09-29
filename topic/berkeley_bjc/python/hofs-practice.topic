@@ -11,12 +11,12 @@ learning-goal: Use HOFs to solve real-life problems, like minimizing or composin
 
 
 h3: A Little Practice
-    resource: Introduction and Warm-up [/bjc-r/cur/programming/python/hofs/intro-hofs-python.html]
+    resource: Introduction and Warm-up [https://cs10.org/bjc-r/cur/programming/python/hofs/intro-hofs-python.html]
 
 h3: Factorions
-  resource: Factorions [/bjc-r/cur/programming/python/hofs/factorions.html]
+  resource: Factorions [https://cs10.org/bjc-r/cur/programming/python/hofs/factorions.html]
 
 h3: Fun with Numbers
-  resource: Pandigital Numbers [/bjc-r/cur/programming/python/hofs/pandigital-numbers.html]
-  resource: Generalize "List all" [/bjc-r/cur/programming/python/hofs/generalizing-list-all.html]
+  resource: Pandigital Numbers [https://cs10.org/bjc-r/cur/programming/python/hofs/pandigital-numbers.html]
+  resource: Generalize "List all" [https://cs10.org/bjc-r/cur/programming/python/hofs/generalizing-list-all.html]
 }

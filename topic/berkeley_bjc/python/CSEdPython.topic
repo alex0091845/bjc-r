@@ -13,20 +13,20 @@ learning-goal: Learn the basics of Python syntax and write a few simple programs
 learning-goal: Become comfortable with basic math and "string" operations.
 
 heading: Introduction to Python
-  resource: Welcome to Besides Blocks: An Introduction to Python [/bjc-r/cur/programming/python/csed_python/introduction_to_besides_blocks.html]
-  resource: Introduction to the Terminal [/bjc-r/cur/programming/python/csed_python/introduction-to-the-terminal.html]
-  resource: Creating Your First Python Program [/bjc-r/cur/programming/python/csed_python/first_python.html]
-  resource: Bigger Python Programs [/bjc-r/cur/programming/python/csed_python/bigger_python.html]
+  resource: Welcome to Besides Blocks: An Introduction to Python [https://cs10.org/bjc-r/cur/programming/python/csed_python/introduction_to_besides_blocks.html]
+  resource: Introduction to the Terminal [https://cs10.org/bjc-r/cur/programming/python/csed_python/introduction-to-the-terminal.html]
+  resource: Creating Your First Python Program [https://cs10.org/bjc-r/cur/programming/python/csed_python/first_python.html]
+  resource: Bigger Python Programs [https://cs10.org/bjc-r/cur/programming/python/csed_python/bigger_python.html]
 
 
 heading: Defining Functions and Loops
-  resource: Defining a Simple Python Function [/bjc-r/cur/programming/python/csed_python/define_simple_function.html]
-  resource: Printing vs Reporters [/bjc-r/cur/programming/python/csed_python/python_reporters.html]
+  resource: Defining a Simple Python Function [https://cs10.org/bjc-r/cur/programming/python/csed_python/define_simple_function.html]
+  resource: Printing vs Reporters [https://cs10.org/bjc-r/cur/programming/python/csed_python/python_reporters.html]
 
 heading: String Manipulation, Conditionals, and Recursion
-  resource: Basic String Manipulation [/bjc-r/cur/programming/python/csed_python/python_basic_string.html]
-  resource: Conditionals and Recursion [/bjc-r/cur/programming/python/csed_python/python_conditionals.html]
+  resource: Basic String Manipulation [https://cs10.org/bjc-r/cur/programming/python/csed_python/python_basic_string.html]
+  resource: Conditionals and Recursion [https://cs10.org/bjc-r/cur/programming/python/csed_python/python_conditionals.html]
 
 heading: Turtle Graphics
-  resource: Introduction to Turtle Graphics [/bjc-r/cur/programming/python/csed_python/intro_to_turtle.html]
+  resource: Introduction to Turtle Graphics [https://cs10.org/bjc-r/cur/programming/python/csed_python/intro_to_turtle.html]
 }

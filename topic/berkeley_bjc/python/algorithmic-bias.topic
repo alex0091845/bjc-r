@@ -13,6 +13,6 @@ learning-goal: Think critically about algorithmic bias, including its possible c
 
 
 heading: Algorithmic Bias in iPython
-	resource: Set-up Instructions [/bjc-r/cur/programming/python/social-implications/si_introduction.html]
+	resource: Set-up Instructions [https://cs10.org/bjc-r/cur/programming/python/social-implications/si_introduction.html]
 
 }

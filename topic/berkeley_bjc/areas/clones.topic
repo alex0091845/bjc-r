@@ -10,10 +10,10 @@ learning-goal: Familiarize yourself with clones
 learning-goal: Make a game utilizing clones
 learning-goal: Explore creative games that you can make with clones
 heading: Clones
-  resource: Introduction [/bjc-r/cur/programming/clones/introclones.html]
+  resource: Introduction [https://cs10.org/bjc-r/cur/programming/clones/introclones.html]
 
-  resource: Working With Clones [/bjc-r/cur/programming/clones/starter.html]
+  resource: Working With Clones [https://cs10.org/bjc-r/cur/programming/clones/starter.html]
 
-  resource: What You Can Make With Clones [/bjc-r/cur/programming/clones/examples.html]
+  resource: What You Can Make With Clones [https://cs10.org/bjc-r/cur/programming/clones/examples.html]
 
 }

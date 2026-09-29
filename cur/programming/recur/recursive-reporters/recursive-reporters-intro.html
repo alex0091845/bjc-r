@@ -2,7 +2,7 @@
 <html>
     <head>
     <meta charset="utf-8" />
-    <script src="/bjc-r/llab/loader.js"></script>
+    <script src="https://cs10.org/bjc-r/llab/loader.js"></script>
     <title>Recursive Reporters</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176402054-1"></script>
@@ -22,18 +22,18 @@
                 that you work with a partner.
     </p>
     <p class="alert quoteGreen">
-        The starter code for this lab is linked here <a class="run" href="/bjc-r/prog/recur/lab10-starter-code.xml" alt="Starter code" title="Starter code">Starter Code for Recurisve Reporters Lab</a>
+        The starter code for this lab is linked here <a class="run" href="https://cs10.org/bjc-r/prog/recur/lab10-starter-code.xml" alt="Starter code" title="Starter code">Starter Code for Recurisve Reporters Lab</a>
     </p>
     <p>
         <ul>
             <li>
-                <img class="image-border" src="/bjc-r/img/recur/reporters/Ends-e_lab10.png" alt="Ends e ()" title="Ends e ()" width="150" />
+                <img class="image-border" src="https://cs10.org/bjc-r/img/recur/reporters/Ends-e_lab10.png" alt="Ends e ()" title="Ends e ()" width="150" />
                 <ul>
                     The autograder will fail if the block is not recurisve.
                 </ul>
             </li>
             <li>
-                <img class="image-border" src="/bjc-r/img/recur/reporters/Numbers_lab10.png" alt="Numbers ()" title="Numbers ()" width="150" />
+                <img class="image-border" src="https://cs10.org/bjc-r/img/recur/reporters/Numbers_lab10.png" alt="Numbers ()" title="Numbers ()" width="150" />
                 <ul>
                     The autograder will fail if the block is not recurisve.
                 </ul>
@@ -42,21 +42,21 @@
     </p>
 
     <p><em>Command</em> blocks using recursion have a structure like this:</p>
-    <p><img src="/bjc-r/img/recur/reporters/rec-command.png" alt="recursive command pattern" /></p>
+    <p><img src="https://cs10.org/bjc-r/img/recur/reporters/rec-command.png" alt="recursive command pattern" /></p>
     <p>There can be any number of recursive calls interspersed with other commands in the script.</p>
     <p>You can also use reporters and recursion together! Reporters are slightly trickier, because a reporter can only report <em>one </em>value. So you can't do this:</p>
-    <p><img src="/bjc-r/img/recur/reporters/bad-rec-reporter.png" alt="bad (multi-report) recursive reporter pattern" /></p>
+    <p><img src="https://cs10.org/bjc-r/img/recur/reporters/bad-rec-reporter.png" alt="bad (multi-report) recursive reporter pattern" /></p>
     <p>(In fact, Snap<em>!</em> won't let you stack <code>report</code> blocks; since <code>report</code> ends the script, there is no connection tab below the block and you can't put anything directly below it. Optional exercise for hotshots: How did we make that picture?)</p>
     <p>Instead, most of the time a recursive reporter call will be inside a <em>combiner</em> that attaches the result of the recursive call to some other value:</p>
-    <p><img src="/bjc-r/img/recur/reporters/rec-reporter.png" alt="correct recursive reporter pattern with combiner" /></p>
+    <p><img src="https://cs10.org/bjc-r/img/recur/reporters/rec-reporter.png" alt="correct recursive reporter pattern with combiner" /></p>
     <p>The combiner can be an arithmetic operator such as <code>+</code> or <code>&times;</code>:</p>
-    <p><img src="/bjc-r/img/recur/reporters/factorial.png" alt="factorial" /></p>
+    <p><img src="https://cs10.org/bjc-r/img/recur/reporters/factorial.png" alt="factorial" /></p>
     <p>or a text string operator such as <code>join</code> or <code>join words</code>:</p>
-    <p><img src="/bjc-r/img/recur/reporters/list-to-sentence.png" alt="list-&gt;sentence" /></p>
+    <p><img src="https://cs10.org/bjc-r/img/recur/reporters/list-to-sentence.png" alt="list-&gt;sentence" /></p>
     <p>or a list operator such as <code>append</code> or <code>in front of</code>:</p>
-    <p><img src="/bjc-r/img/recur/reporters/plurals.png" alt="plurals" /></p>
+    <p><img src="https://cs10.org/bjc-r/img/recur/reporters/plurals.png" alt="plurals" /></p>
     <p>Note: Occasionally, the recursive call <em>does</em> appear directly inside the <code>report</code>:</p>
-    <p><img src="/bjc-r/img/recur/reporters/piglatin.png" alt="piglatin" /></p>
+    <p><img src="https://cs10.org/bjc-r/img/recur/reporters/piglatin.png" alt="piglatin" /></p>
     <p>(Wikipedia article on <a href="http://en.wikipedia.org/wiki/Pig_Latin" target="_blank">pig latin</a>. Our block only accounts for the first rule.)
     <p>But most of the time, you won't go wrong if you start by thinking about what combining block to use.</p>
     <p class="alert quoteBlue">

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<script src="/bjc-r/llab/loader.js"></script>
+<script src="https://cs10.org/bjc-r/llab/loader.js"></script>
 <title>Triples</title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176402054-1"></script>
@@ -25,18 +25,18 @@
     For example, this winning triple:
   </p>
   <p style="text-align:center;">
-    <img src="/bjc-r/img/hof/triple-board.png" width="15%" height="15%"/>
-    <img src="/bjc-r/img/hof/tic-tac-toe-board-numbered.png" width="15%" height="15%"/>
+    <img src="https://cs10.org/bjc-r/img/hof/triple-board.png" width="15%" height="15%"/>
+    <img src="https://cs10.org/bjc-r/img/hof/tic-tac-toe-board-numbered.png" width="15%" height="15%"/>
   </p> 
   <p>
-    could be represented as <img src="/bjc-r/img/hof/triple.png" width="10%" height="10%" /> because the win is in the 3rd, 5th, and 7th positions: 
+    could be represented as <img src="https://cs10.org/bjc-r/img/hof/triple.png" width="10%" height="10%" /> because the win is in the 3rd, 5th, and 7th positions: 
   </p>
 
   <p>
     We'll call each row, column, and diagonal a triple. The program will need a list of all the winning triples. This is the sort of thing—an unchanging value that's needed throughout the program—that can reasonably be put in a global variable.
   </p>
   <p style="text-align:center;">
-    <img src="/bjc-r/img/hof/winning-triples.png" alt="list of winning combinations" />
+    <img src="https://cs10.org/bjc-r/img/hof/winning-triples.png" alt="list of winning combinations" />
   </p>
   <p>
     Why is this a good way to think of things? Well now, "can I win on the next move" means "is there a triple in which two of the squares have my letter and the third square is empty?" This solves the problem we thought of at the end of answering Question 1.
@@ -48,34 +48,34 @@
   </div>
   <h3>Checking One Way to Win</h3>
   <p>
-    <img src="/bjc-r/img/hof/tic-tac-toe-board.png" alt="tic-tac-toe board" />
+    <img src="https://cs10.org/bjc-r/img/hof/tic-tac-toe-board.png" alt="tic-tac-toe board" />
   </p>
   <p>
     So we've decided that we'll  represent the board as a list whose items are in the order of the numbers above. If we have the board state above with X's and O's, our list looks like this:
   </p>
   <p>
-    <img src="/bjc-r/img/hof/ttt-list-basic.png" alt="example board as triples" />
+    <img src="https://cs10.org/bjc-r/img/hof/ttt-list-basic.png" alt="example board as triples" />
   </p>
   <p>
     The list of winning triples above will help us answer all the questions our strategy program will have to ask. Remember, &quot;can I win on the next move&quot; now means &quot;is there a triple in which two of the squares have my letter and the third square is empty?&quot; 
   </p>
 
   <p>
-    Fill in the block <img src="/bjc-r/img/hof/status-of-triple.png" width="20%" height="20%"/> that takes one possible winning triple (a triple like list{1, 2, 3}) as input and reports a list of what is in those three positions (X, O, or Empty). For example: <img src="/bjc-r/img/hof/status-of-triple-example.png" width="40%" height="40%"/>
+    Fill in the block <img src="https://cs10.org/bjc-r/img/hof/status-of-triple.png" width="20%" height="20%"/> that takes one possible winning triple (a triple like list{1, 2, 3}) as input and reports a list of what is in those three positions (X, O, or Empty). For example: <img src="https://cs10.org/bjc-r/img/hof/status-of-triple-example.png" width="40%" height="40%"/>
   </p>
 
   <div class="alert quoteGreen alert-success">
-    <p>Hint: Use a HOF with <img src="/bjc-r/img/hof/item-of.png" width="10%" height="10%"/> for this problem </p>
+    <p>Hint: Use a HOF with <img src="https://cs10.org/bjc-r/img/hof/item-of.png" width="10%" height="10%"/> for this problem </p>
   </div>
 
   <h3>Checking All the Ways to Win</h3>
   <p>
-  You've just built a block that will check one triple to show if either player has chosen all three of those squares. Now, you'll build a block, <img src="/bjc-r/img/hof/satus-of-all-triples.png" width="20%" height="20%"/> to perform the same check for all of the triples that make a win. Then, you'll use that block to check if any of the winning triples actually contain a space that could be a winning move for the computer player. For example, when we input the board shown above we get the following result:</p>
+  You've just built a block that will check one triple to show if either player has chosen all three of those squares. Now, you'll build a block, <img src="https://cs10.org/bjc-r/img/hof/satus-of-all-triples.png" width="20%" height="20%"/> to perform the same check for all of the triples that make a win. Then, you'll use that block to check if any of the winning triples actually contain a space that could be a winning move for the computer player. For example, when we input the board shown above we get the following result:</p>
 
-  <img src="/bjc-r/img/hof/status-of-all-example.png" width="60%" height="60%"/> 
+  <img src="https://cs10.org/bjc-r/img/hof/status-of-all-example.png" width="60%" height="60%"/> 
 
   <div class="alert quoteGreen alert-success">
-    <p>Hint: Use a HOF with <img src="/bjc-r/img/hof/status-of-triple.png" width="15%" height="15%"/> and <img src="/bjc-r/img/hof/winning_triples.png" width="15%" height="15%"/> for this problem </p>
+    <p>Hint: Use a HOF with <img src="https://cs10.org/bjc-r/img/hof/status-of-triple.png" width="15%" height="15%"/> and <img src="https://cs10.org/bjc-r/img/hof/winning_triples.png" width="15%" height="15%"/> for this problem </p>
   </div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="/bjc-r/llab/loader.js"></script>
+        <script src="https://cs10.org/bjc-r/llab/loader.js"></script>
         <title>Counting Words</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176402054-1"></script>
@@ -33,7 +33,7 @@
 
 text = read_file("horse_ebooks.txt")
 print(count_words(text))</code></pre>
-      <p>Your job is to fill out the count_words function so that it returns a dictionary with the right counts. If you're stuck, look back at <a href="/bjc-r/cur/programming/python/using_dictionaries.html">Exercise 6 from the Data Structures lab</a>. Remember that dictionaries are unordered data structures so what is printed by the above call may have the keys in a different order.
+      <p>Your job is to fill out the count_words function so that it returns a dictionary with the right counts. If you're stuck, look back at <a href="https://cs10.org/bjc-r/cur/programming/python/using_dictionaries.html">Exercise 6 from the Data Structures lab</a>. Remember that dictionaries are unordered data structures so what is printed by the above call may have the keys in a different order.
     </body>
     
     <p> Test your code using the autograder by running the following line.
@@ -45,7 +45,7 @@ print(count_words(text))</code></pre>
  <p>One issue with our <code>count_words</code> function is that it includes punctuation as part of each word. For example "cows" and "cows." would be considered different words. As an optional exercise, write a <code>remove_punctuation</code> function that returns a string without any punctuation. Modify <code>count_words</code> so that it uses this new function.
 
  <p class="alert quoteGreen">
-Hint: Use a combination of <code>"".join()</code> with a list comprehension. See the <a href="/bjc-r/cur/programming/python/python_comprehensions_and_strings.html">previous lab for some hints.</a>
+Hint: Use a combination of <code>"".join()</code> with a list comprehension. See the <a href="https://cs10.org/bjc-r/cur/programming/python/python_comprehensions_and_strings.html">previous lab for some hints.</a>
  </p>
 
 <!-- strip punctuation?? -->

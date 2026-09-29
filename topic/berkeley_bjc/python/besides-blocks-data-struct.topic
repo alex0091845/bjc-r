@@ -13,24 +13,24 @@ learning-goal: Learn how to use key-value pairs and determine why they are usefu
 learning-goal: Solve problems with Python lists and dictionaries.
 
 heading: Introduction to Python Data Structures
-    resource: Welcome to Besides Blocks [/bjc-r/cur/programming/python/intro_besides_blocks_data_structs.html]
-    resource: Introduction to Python Lists [/bjc-r/cur/programming/python/lists_intro.html]
+    resource: Welcome to Besides Blocks [https://cs10.org/bjc-r/cur/programming/python/intro_besides_blocks_data_structs.html]
+    resource: Introduction to Python Lists [https://cs10.org/bjc-r/cur/programming/python/lists_intro.html]
 
 heading: Mutability and List Functions in Python
-    resource: List Mutability [/bjc-r/cur/programming/python/list_mutability.html]
-    resource: List Functions [/bjc-r/cur/programming/python/list_functions.html]
-    resource: Iterables [/bjc-r/cur/programming/python/python_iterables.html]
-    resource: Getting Ready to Program [/bjc-r/cur/programming/python/data_structs_getting_setup.html]
-    resource: 2D Lists [/bjc-r/cur/programming/python/2D_lists.html]
+    resource: List Mutability [https://cs10.org/bjc-r/cur/programming/python/list_mutability.html]
+    resource: List Functions [https://cs10.org/bjc-r/cur/programming/python/list_functions.html]
+    resource: Iterables [https://cs10.org/bjc-r/cur/programming/python/python_iterables.html]
+    resource: Getting Ready to Program [https://cs10.org/bjc-r/cur/programming/python/data_structs_getting_setup.html]
+    resource: 2D Lists [https://cs10.org/bjc-r/cur/programming/python/2D_lists.html]
 
 heading: Higher Order Functions in Python
-    resource: List Comprehensions in Python [/bjc-r/cur/programming/python/python_comprehensions.html]
-    resource: List Comprehensions and Strings [/bjc-r/cur/programming/python/python_comprehensions_and_strings.html]
-    resource: Trying to Combine in Python [/bjc-r/cur/programming/python/trying_combine.html]
+    resource: List Comprehensions in Python [https://cs10.org/bjc-r/cur/programming/python/python_comprehensions.html]
+    resource: List Comprehensions and Strings [https://cs10.org/bjc-r/cur/programming/python/python_comprehensions_and_strings.html]
+    resource: Trying to Combine in Python [https://cs10.org/bjc-r/cur/programming/python/trying_combine.html]
 
 heading: Python Dictionaries
-    resource: Comparing Dictionaries and Lists [/bjc-r/cur/programming/python/comparing_dicts_lists.html]
-    resource: Using Python Dictionaries [/bjc-r/cur/programming/python/using_dictionaries.html]
-    resource: More Dictionaries [/bjc-r/cur/programming/python/advanced_dictionary_problems.html]
+    resource: Comparing Dictionaries and Lists [https://cs10.org/bjc-r/cur/programming/python/comparing_dicts_lists.html]
+    resource: Using Python Dictionaries [https://cs10.org/bjc-r/cur/programming/python/using_dictionaries.html]
+    resource: More Dictionaries [https://cs10.org/bjc-r/cur/programming/python/advanced_dictionary_problems.html]
 
 }

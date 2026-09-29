@@ -12,22 +12,22 @@ learning-goal: Learn about the basics of OOP in Python while completing above ac
 learning-goal: Use the aforementioned knowledge to build your own MemePage class.
 
 heading: Introduction to Object-Oriented Programming (OOP)
-	resource: Introduction to Object-Oriented Programming (OOP) [/bjc-r/cur/programming/python/object-oriented-programming-joshhug/oop_intro.html]
-    resource: Coding a Book Class [/bjc-r/cur/programming/python/object-oriented-programming-joshhug/class_book_intro.html]
+	resource: Introduction to Object-Oriented Programming (OOP) [https://cs10.org/bjc-r/cur/programming/python/object-oriented-programming-joshhug/oop_intro.html]
+    resource: Coding a Book Class [https://cs10.org/bjc-r/cur/programming/python/object-oriented-programming-joshhug/class_book_intro.html]
 
 heading: Initializing Objects
-    resource: Constructors [/bjc-r/cur/programming/python/object-oriented-programming-joshhug/constructors.html]
+    resource: Constructors [https://cs10.org/bjc-r/cur/programming/python/object-oriented-programming-joshhug/constructors.html]
 
 heading: Class Attributes
-    resource: Class Attributes [/bjc-r/cur/programming/python/object-oriented-programming-joshhug/class_attributes.html]
+    resource: Class Attributes [https://cs10.org/bjc-r/cur/programming/python/object-oriented-programming-joshhug/class_attributes.html]
 
 heading: Methods
-    resource: Calculating Your Book's Age [/bjc-r/cur/programming/python/object-oriented-programming-joshhug/book_age.html]
-    resource: Practice with Methods [/bjc-r/cur/programming/python/object-oriented-programming-joshhug/method_exercises.html]
+    resource: Calculating Your Book's Age [https://cs10.org/bjc-r/cur/programming/python/object-oriented-programming-joshhug/book_age.html]
+    resource: Practice with Methods [https://cs10.org/bjc-r/cur/programming/python/object-oriented-programming-joshhug/method_exercises.html]
 
 heading: Implementing Your Own Class
-	resource: Meme Oriented Programming [/bjc-r/cur/programming/python/object-oriented-programming-joshhug/final_exercise.html]
+	resource: Meme Oriented Programming [https://cs10.org/bjc-r/cur/programming/python/object-oriented-programming-joshhug/final_exercise.html]
 
 heading: Debugging 
-    resource: TicTacToe [/bjc-r/cur/programming/python/object-oriented-programming-joshhug/ttt.html] 
+    resource: TicTacToe [https://cs10.org/bjc-r/cur/programming/python/object-oriented-programming-joshhug/ttt.html] 
 }

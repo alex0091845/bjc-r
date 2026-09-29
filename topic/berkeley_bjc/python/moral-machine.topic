@@ -11,11 +11,11 @@ learning-goal: Explore first-hand how algorithmic bias can manifest in data scie
 learning-goal: Think critically about algorithmic bias, including its possible causes, consequences, and cures.
 
 heading: Introduction to the Moral Machine
-resource: Introduction [/bjc-r/cur/social-context/misc/moral-machine/moral-machine-intro.html]
+resource: Introduction [https://cs10.org/bjc-r/cur/social-context/misc/moral-machine/moral-machine-intro.html]
 
 heading: Developing your Decision-Making Algorithm
-resource: Developing your Algorithm [/bjc-r/cur/social-context/misc/moral-machine/moral-machine-task.html]
+resource: Developing your Algorithm [https://cs10.org/bjc-r/cur/social-context/misc/moral-machine/moral-machine-task.html]
 
 heading: Evaluating your Algorithm
-resource: Evaluating your Algorithm [/bjc-r/cur/social-context/misc/moral-machine/moral-machine-eval.html]
+resource: Evaluating your Algorithm [https://cs10.org/bjc-r/cur/social-context/misc/moral-machine/moral-machine-eval.html]
 }

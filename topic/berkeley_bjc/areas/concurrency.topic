@@ -20,18 +20,18 @@ learning-goal: When we call "launch", does that mean another worker starts up? (
 learning-goal: The meta learning goal for this part is for you to develop an accurate mental model of how Scratch handles concurrency. This is so you avoid race conditions and deadlock, and so that you can fully exploit it to your benefit!
 
 heading: Two heads are better than one.
-  resource: Snap<em>!</em>  Machine Concepts [/bjc-r/cur/programming/concurrency/snap/snap-machine-concepts.html]
-  resource: Concurrency in Snap<em>!</em>  [/bjc-r/cur/programming/concurrency/snap/snap-play-1.html]
-  resource: Serial vs. Parallel [/bjc-r/cur/programming/concurrency/snap/snap-debug.html]
+  resource: Snap<em>!</em>  Machine Concepts [https://cs10.org/bjc-r/cur/programming/concurrency/snap/snap-machine-concepts.html]
+  resource: Concurrency in Snap<em>!</em>  [https://cs10.org/bjc-r/cur/programming/concurrency/snap/snap-play-1.html]
+  resource: Serial vs. Parallel [https://cs10.org/bjc-r/cur/programming/concurrency/snap/snap-debug.html]
 
 heading: Snap<em>!</em> ... don't all talk at once!
-  resource: Determinism vs. Non-determinism [/bjc-r/cur/programming/concurrency/snap/snap-modify.html]
-  resource: What are the possible values? [/bjc-r/cur/programming/concurrency/snap/subset-race-script.html]
-  resource: These are the possible values [/bjc-r/cur/programming/concurrency/snap/subset-race-answers.html]
+  resource: Determinism vs. Non-determinism [https://cs10.org/bjc-r/cur/programming/concurrency/snap/snap-modify.html]
+  resource: What are the possible values? [https://cs10.org/bjc-r/cur/programming/concurrency/snap/subset-race-script.html]
+  resource: These are the possible values [https://cs10.org/bjc-r/cur/programming/concurrency/snap/subset-race-answers.html]
 
 heading: Snap<em>!</em> ... some details to form a mental model
-  resource: Multiple Broadcasts [/bjc-r/cur/programming/concurrency/snap/snap-play-3.html]
-  resource: Reflection: Multiple Broadcasts [/bjc-r/cur/programming/concurrency/snap/reflection-snap-3.html]
+  resource: Multiple Broadcasts [https://cs10.org/bjc-r/cur/programming/concurrency/snap/snap-play-3.html]
+  resource: Reflection: Multiple Broadcasts [https://cs10.org/bjc-r/cur/programming/concurrency/snap/reflection-snap-3.html]
 
 
 }

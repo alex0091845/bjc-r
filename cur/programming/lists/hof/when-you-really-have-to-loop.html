@@ -2,7 +2,7 @@
 
     <head>
 
-        <script src="/bjc-r/llab/loader.js"></script>
+        <script src="https://cs10.org/bjc-r/llab/loader.js"></script>
 
         <title>
             When you really have to loop
@@ -28,15 +28,15 @@
             <p>
                 Write a predicate <code>increasing?</code> that takes a list of numbers as input, and outputs <code>true</code> if the numbers are in increasing order (equal neighbors are okay), or <code>false</code> otherwise.
             </p>
-            <img class="indent" src="/bjc-r/img/hof/increasing-list-true-report.png" alt="increasing of (1 3 4 10) returning true">
+            <img class="indent" src="https://cs10.org/bjc-r/img/hof/increasing-list-true-report.png" alt="increasing of (1 3 4 10) returning true">
             <br>
-            <img class="indent" src="/bjc-r/img/hof/increasing-list-false-report.png" alt="increasing of (1 7 4 10) returning false">
+            <img class="indent" src="https://cs10.org/bjc-r/img/hof/increasing-list-false-report.png" alt="increasing of (1 7 4 10) returning false">
         </div>
 
         <p>
             Because this is a predicate, it's tempting to try to make it use <code>keep</code>:
         </p>
-        <img class= "indent" border="0" src="/bjc-r/img/list/hof/wannabe-increasing.png"
+        <img class= "indent" border="0" src="https://cs10.org/bjc-r/img/list/hof/wannabe-increasing.png"
         alt="report <empty? (keep items such that (<() < (???)>) from (list)"
         title="report <empty? (keep items such that (<() < (???)>) from (list)"/>
 
@@ -58,7 +58,7 @@
             The solution is to use the <code>for each item</code> block, this way:
         </p>
 
-        <img class="indent" border="0" src="/bjc-r/img/list/hof/increasing.png" alt="definition of INCREASING? block" title="definition of INCREASING? block"/>
+        <img class="indent" border="0" src="https://cs10.org/bjc-r/img/list/hof/increasing.png" alt="definition of INCREASING? block" title="definition of INCREASING? block"/>
         <p>
             Like the functions used as input to <code>map</code> and friends,
             the script inside the C-shaped slot of <code>for each item</code>
@@ -76,18 +76,18 @@
             that goes inside the C-slot, instead of using an empty input to
             represent the list item:
         </p>
-        <img class="indent" src="/bjc-r/img/list/hof/increasing-item.png" alt="for each using item variable">
+        <img class="indent" src="https://cs10.org/bjc-r/img/list/hof/increasing-item.png" alt="for each using item variable">
 
 
 
-        <p>You can work with the above script <a class="run" href="/bjc-r/prog/loop/increasing.xml">here</a>.</p>
+        <p>You can work with the above script <a class="run" href="https://cs10.org/bjc-r/prog/loop/increasing.xml">here</a>.</p>
 
         <h2>Try these</h2>
 
         <p class="step">
             <b>Try this:</b>
             Display a longish list using time instead of space on the screen
-            by <img class="inline" src="/bjc-r/img/blocks/say-fragment.png" alt="say">ing each item for two seconds.
+            by <img class="inline" src="https://cs10.org/bjc-r/img/blocks/say-fragment.png" alt="say">ing each item for two seconds.
 
         </p>
         <p class="step">
@@ -97,15 +97,15 @@
             that many copies of the following word. If the last word is a
             number, the number should be in the output text unmodified.
             <br><br>
-            <img class="indent" border="0" src="/bjc-r/img/list/hof/apples-bananas.png"
+            <img class="indent" border="0" src="https://cs10.org/bjc-r/img/list/hof/apples-bananas.png"
             alt="I have 3 apples and 2 bananas -> I have apples apples and bananas bananas bananas"
             title="I have 3 apples and 2 bananas -> I have apples apples and bananas bananas bananas"/>
-            <img class="indent" border="0" src="/bjc-r/img/list/hof/expand-water.png"
+            <img class="indent" border="0" src="https://cs10.org/bjc-r/img/list/hof/expand-water.png"
             alt="I really really really really really need water"
             title="I really really really really really need water"/>
-            <img class="indent" border="0" src="/bjc-r/img/list/hof/race.png"
+            <img class="indent" border="0" src="https://cs10.org/bjc-r/img/list/hof/race.png"
             alt="I have 1 a race -> I have a race" title="I have 1 a race -> I have a race" />
-            <img class="indent" border="0" src="/bjc-r/img/list/hof/expand-edge-case.png"
+            <img class="indent" border="0" src="https://cs10.org/bjc-r/img/list/hof/expand-edge-case.png"
             alt="My favorite number is 42"/>
         </p>
     </body>

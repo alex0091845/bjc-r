@@ -4,42 +4,42 @@ title: Conditionals
 
 heading: Conditional Blocks
 
-  //resource: Primer: Variables [https://cs10.org/bjc-r/cur/programming/conditionals/variables-primer.html]
-  resource: Introduction: Why do we need conditionals? [https://cs10.org/bjc-r/cur/programming/conditionals/conditionals-intro.html]
+  //resource: Primer: Variables [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/variables-primer.html]
+  resource: Introduction: Why do we need conditionals? [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/conditionals-intro.html]
   //have them see an actual if/then block that reads like english (with a custom predicate? -- <have sufficient funds>
-  //  resource: "If-then" Statements [https://cs10.org/bjc-r/cur/programming/conditionals/if-then-statements.html] // combine with introduction
-  resource: Booleans [https://cs10.org/bjc-r/cur/programming/conditionals/booleans.html] //remove/replace some quiz questions
-  resource: If and If-else [https://cs10.org/bjc-r/cur/programming/conditionals/if-and-if-else.html]
-  resource: Predict what happens! [https://cs10.org/bjc-r/cur/programming/conditionals/predict.html]
-  resource: Pair Programming Swap [https://cs10.org/bjc-r/cur/programming/guides/pair-programming-swap.html?1]
+  //  resource: "If-then" Statements [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/if-then-statements.html] // combine with introduction
+  resource: Booleans [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/booleans.html] //remove/replace some quiz questions
+  resource: If and If-else [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/if-and-if-else.html]
+  resource: Predict what happens! [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/predict.html]
+  resource: Pair Programming Swap [https://alex0091845.github.io/bjc-r/cur/programming/guides/pair-programming-swap.html?1]
   //resource: write thermostat  -- writing a block that is used elsewhere (get a input parameter as necessary)
   //examples with dates would be great.
-  resource: Blocks using if and if-else [https://cs10.org/bjc-r/cur/programming/conditionals/if-else-examples.html]
+  resource: Blocks using if and if-else [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/if-else-examples.html]
   // game of life here later?
 
 
 heading: Combining Booleans
 
-  resource: More complex boolean expressions [https://cs10.org/bjc-r/cur/programming/conditionals/complex-booleans.html]
-  resource: Script Variables [https://cs10.org/bjc-r/cur/programming/variables/scriptvar.html]
-  quiz: Self-test: Complex Booleans [https://cs10.org/bjc-r/cur/programming/conditionals/complex-booleans-self-test.html]
-  resource: Pair Programming Swap [https://cs10.org/bjc-r/cur/programming/guides/pair-programming-swap.html?2]
-  resource: Leap Year? [https://cs10.org/bjc-r/cur/programming/conditionals/dates/checking-for-leap-years.html]
+  resource: More complex boolean expressions [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/complex-booleans.html]
+  resource: Script Variables [https://alex0091845.github.io/bjc-r/cur/programming/variables/scriptvar.html]
+  quiz: Self-test: Complex Booleans [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/complex-booleans-self-test.html]
+  resource: Pair Programming Swap [https://alex0091845.github.io/bjc-r/cur/programming/guides/pair-programming-swap.html?2]
+  resource: Leap Year? [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/dates/checking-for-leap-years.html]
 
 heading: Practice with Predicates
 //  resource: motivation
-  resource: Reporter Blocks [https://cs10.org/bjc-r/cur/programming/functions/reporters.html]
-  resource: Practice: >= [https://cs10.org/bjc-r/cur/programming/conditionals/predicates.html] // chop out relevant piees
-  resource: Solutions to >= [https://cs10.org/bjc-r/cur/programming/conditionals/ge-soln.html]
-  resource: Pair Programming Swap [https://cs10.org/bjc-r/cur/programming/guides/pair-programming-swap.html?3]
-  resource: Practice: Between [https://cs10.org/bjc-r/cur/programming/functions/predicates/predicates-make-a-between-block.html]
-  resource: Practice with complex booleans [https://cs10.org/bjc-r/cur/programming/conditionals/complex-booleans-practice.html]
+  resource: Reporter Blocks [https://alex0091845.github.io/bjc-r/cur/programming/functions/reporters.html]
+  resource: Practice: >= [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/predicates.html] // chop out relevant piees
+  resource: Solutions to >= [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/ge-soln.html]
+  resource: Pair Programming Swap [https://alex0091845.github.io/bjc-r/cur/programming/guides/pair-programming-swap.html?3]
+  resource: Practice: Between [https://alex0091845.github.io/bjc-r/cur/programming/functions/predicates/predicates-make-a-between-block.html]
+  resource: Practice with complex booleans [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/complex-booleans-practice.html]
 
 
 heading: Number Guessing
-  resource: Number Guessing [https://cs10.org/bjc-r/cur/programming/conditionals/number-guessing-game-v1-0.html]
-  resource: Pair Programming Swap [https://cs10.org/bjc-r/cur/programming/guides/pair-programming-swap.html?4]
-  resource: More number guessing [https://cs10.org/bjc-r/cur/programming/conditionals/number-guessing-game-v2-0.html]
-//  resource: Tamagotchi [https://cs10.org/bjc-r/cur/programming/conditionals/tamagotchi.html]
+  resource: Number Guessing [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/number-guessing-game-v1-0.html]
+  resource: Pair Programming Swap [https://alex0091845.github.io/bjc-r/cur/programming/guides/pair-programming-swap.html?4]
+  resource: More number guessing [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/number-guessing-game-v2-0.html]
+//  resource: Tamagotchi [https://alex0091845.github.io/bjc-r/cur/programming/conditionals/tamagotchi.html]
 
 }

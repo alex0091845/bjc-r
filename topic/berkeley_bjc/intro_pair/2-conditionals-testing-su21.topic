@@ -10,7 +10,7 @@ heading: Conditional Blocks
   //  resource: "If-then" Statements [/bjc-r/cur/programming/conditionals/if-then-statements.html] // combine with introduction
   resource: Booleans [/bjc-r/cur/programming/conditionals/booleans.html] //remove/replace some quiz questions
   resource: If and If-else [/bjc-r/cur/programming/conditionals/if-and-if-else.html]
-  resource: Predict what happens! [/bjc-r/cur/programming/conditionals/predict.html]
+  resource: Predict the output! [/bjc-r/cur/programming/conditionals/predict.html]
   resource: Pair Programming Swap [/bjc-r/cur/programming/guides/pair-programming-swap.html?1]
   //resource: write thermostat  -- writing a block that is used elsewhere (get a input parameter as necessary)
   //examples with dates would be great.
@@ -26,18 +26,18 @@ heading: Combining Booleans
 
 heading: Practice with Predicates
 //  resource: motivation
-  resource: Reporter Blocks [/bjc-r/cur/programming/functions/reporters.html]
-  resource: Practice: >= [/bjc-r/cur/programming/conditionals/predicates.html] // chop out relevant piees
+  resource: Defining Reporter Blocks [/bjc-r/cur/programming/functions/reporters.html]
+  resource: Predicates: >= [/bjc-r/cur/programming/conditionals/predicates.html] // chop out relevant piees
   resource: Solutions to >= [/bjc-r/cur/programming/conditionals/ge-soln.html]
   resource: Pair Programming Swap [/bjc-r/cur/programming/guides/pair-programming-swap.html?3]
-  resource: Practice: Between [/bjc-r/cur/programming/functions/predicates/predicates-make-a-between-block.html]
+  resource: Predicates: Make a Between Block [/bjc-r/cur/programming/functions/predicates/predicates-make-a-between-block.html]
   resource: Practice with complex booleans [/bjc-r/cur/programming/conditionals/complex-booleans-practice-su21.html]
 
 heading: More work with reporters
 
   resource: The Max Block [/bjc-r/cur/programming/functions/review-max-block.html]
   resource: Input types [/bjc-r/cur/programming/functions/input-types-new.html]
-  resource: Composition of Reporters [/bjc-r/cur/programming/functions/composition-of-reporters.html]
+  resource: Composition of Functions [/bjc-r/cur/programming/functions/composition-of-reporters.html]
   resource: Sum-thing's Up [/bjc-r/cur/programming/loops/sum-things-up-debug.html]
 
 heading: Testing your code
@@ -58,7 +58,7 @@ heading: Programs with Multiple Sprites
 
 
 heading: Number Guessing
-  resource: Number Guessing [/bjc-r/cur/programming/conditionals/number-guessing-game-v1-0.html]
+  resource: Number Guessing Game v1.0 [/bjc-r/cur/programming/conditionals/number-guessing-game-v1-0.html]
   resource: Pair Programming Swap [/bjc-r/cur/programming/guides/pair-programming-swap.html?6]
-  resource: More number guessing [/bjc-r/cur/programming/conditionals/number-guessing-game-v2-0.html]
+  resource: Number Guessing Game v2.0 [/bjc-r/cur/programming/conditionals/number-guessing-game-v2-0.html]
 //  resource: Tamagotchi [/bjc-r/cur/programming/conditionals/tamagotchi.html]

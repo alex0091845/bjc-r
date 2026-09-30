@@ -105,7 +105,7 @@
 	</p>
 
 	<p class="quoteorange">
-		<strong>Note:</strong> Below is where you start to fill out <strong>the two reporter blocks in the lab 3 starter code!</strong> You will fill out the "letter grade reporter" and the "traffic signal reporter" blocks.
+		<strong>Note:</strong> Below is where you start to fill out <strong>the two reporter blocks in the lab 3 starter code!</strong> You will fill out the "letter grade reporter" and the "traffic signal reporter" blocks. You can find the official lab instructions for these two blocks below (keep scrolling down).
 	</p>
 
 	<p>
@@ -131,9 +131,9 @@
 	 <p>
 		Traffic Signal:
 		<br />
-		-Domain: Text representing a color 
+		- Domain: Text representing a color 
 		<br/>
-		-Range: Text representing an action
+		- Range: Text representing an action
 		<br/>
 		<b>Note: Please use the exact text string in your report block for the autograder to work.</b>
 		<ul>
@@ -152,6 +152,80 @@
 		For example:
 		<img src="/bjc-r/img/building-blocks/letter-grade-example.png" alt="letter grade reporter(92.56) == A">
 	</p>
+
+	<hr>
+	<h1>Official Lab Instructions</h1>
+
+	<p>Below, you can find the official instructions for the first two graded blocks for lab 3. If the instructions above make more sense to you, feel free to refer to them. However, you should still read over the official instructions since the terms used in the official instructions are more precise and standardized.</p>
+
+	<h2 id="block-1-traffic-signal-color">Block 1: Traffic signal (color)</h2>
+    
+<p><strong>Objective</strong></p>
+<ul>
+  <li>Create a <strong>reporter</strong> block that, when given a traffic light color, reports the appropriate action (see below).</li>
+</ul>
+
+<p><strong>Inputs</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">color</code> = any text<br>
+Any text can be typed, but the autograder will test the three traffic light colors: <strong>Red</strong>, <strong>Green</strong>, <strong>Yellow</strong>.</li>
+</ul>
+
+<p><strong>Output</strong></p>
+<ul>
+  <li>Reports <strong>Text</strong>. Case-sensitive mappings:
+    <ul>
+      <li>Input: <code class="language-plaintext highlighter-rouge">Green</code> &#8594; Output: <code class="language-plaintext highlighter-rouge">Go</code></li>
+      <li>Input: <code class="language-plaintext highlighter-rouge">Red</code> &#8594; Output: <code class="language-plaintext highlighter-rouge">Stop</code></li>
+      <li>Input: <code class="language-plaintext highlighter-rouge">Yellow</code> &#8594; Output: <code class="language-plaintext highlighter-rouge">Yield</code></li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Examples</strong></p>
+<ul>
+  <li><img src="/bjc-r/img/labs/lab-3/lab3_b1_1.png" alt="example of traffic signal reporter 'Yellow' with output 'Yield'"></li>
+  <li><img src="/bjc-r/img/labs/lab-3/lab3_b1_2.png" alt="example of traffic signal reporter 'Red' with output 'Stop'"></li>
+  <li><img src="/bjc-r/img/labs/lab-3/lab3_b1_3.png" alt="example of failed traffic signal reporter 'Cheese' with output 'did not report'"></li>
+</ul>
+
+<hr>
+
+<h2 id="block-2-letter-grade-number"> Block 2: letter grade (number) </h2>
+    
+<p><strong>Objective</strong></p>
+<ul>
+  <li>Create a reporter block that, when given a percentage, says the associated letter grade.<br>
+Example: <code class="language-plaintext highlighter-rouge">letter grade (74)</code> should say <strong>C</strong>.</li>
+</ul>
+
+<p><strong>Standardized Letter Grades</strong></p>
+<ul>
+  <li><strong>A</strong>: 90 - 100</li>
+  <li><strong>B</strong>: 80 - 89.99</li>
+  <li><strong>C</strong>: 70 - 79.99</li>
+  <li><strong>D</strong>: 60 - 69.99</li>
+  <li><strong>F</strong>: &lt; 60<br>
+<em>Note: the autograder is sensitive to decimals and should work for all non-negative numbers (e.g., 89.99123123).</em></li>
+</ul>
+
+<p><strong>Inputs</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">number</code> = any number<br>
+You may assume users will input a non-negative number &#8804; 100.</li>
+</ul>
+
+<p><strong>Output</strong></p>
+<ul>
+  <li>Reports <strong>Text</strong> (case-sensitive, no extra spaces or quotes).</li>
+</ul>
+
+<p><strong>Examples</strong></p>
+<ul>
+  <li><img src="/bjc-r/img/labs/lab-3/lab3_b2_1.png" alt="example of letter grade reporter '89.999' with output 'B'"></li>
+  <li><img src="/bjc-r/img/labs/lab-3/lab3_b2_2.png" alt="example of letter grade reporter '70' with output 'C'"></li>
+  <li><img src="/bjc-r/img/labs/lab-3/lab3_b2_3.png" alt="example of letter grade reporter '2' with output 'F'"></li>
+</ul><hr>
 
 	<p class="quotegreen">
 		&#x1F64B; Call your instructor over to check your progress before moving on to the next section! As this point, you should've filled out and completed the two reporter blocks in the lab 3 starter code.
